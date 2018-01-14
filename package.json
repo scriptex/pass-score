@@ -1,0 +1,27 @@
+{
+  "name": "pass-score",
+  "version": "0.0.1",
+  "description": "Get the score of your password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptex/pass-score.git"
+  },
+  "keywords": [
+    "Password",
+    "Score",
+    "Strength",
+    "Check",
+    "Utility",
+    "Tools"
+  ],
+  "author": "Atanas Atanasov <scriptex.bg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptex/pass-score/issues"
+  },
+  "homepage": "https://github.com/scriptex/pass-score#readme"
+}
