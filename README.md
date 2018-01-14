@@ -22,7 +22,7 @@ import passScore from 'pass-score';
 
 // Returns a number between 0 and 2
 const score = passScore('Your-passW0rd-Str1ng', [
-  /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]+$/, // Special characters
+  /[\W_,!?@*\(\)]/, // Special characters
   /^.{8}/ // At least 8 characters
 ]);
 ```
@@ -40,5 +40,5 @@ The predefined array with conditions holds the following:
 
 1. `/\d/` - The password should contain at least on digit
 2. `/[A-Z]/`, - The password should contain at least one uppercase letter
-3. `/^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]+$/` - The password should contain at least one special character
+3. `/[\W_,!?@*\(\)]/` - The password should contain at least one special character
 4. `/^.{8}/` - The password should be at least 8 characters long
