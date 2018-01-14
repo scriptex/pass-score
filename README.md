@@ -15,7 +15,7 @@ import passScore from 'pass-score';
 const score = passScore('Your-passW0rd-Str1ng');
 ```
 
-// With custom conditions
+With custom conditions
 
 ```
 import passScore from 'pass-score';
