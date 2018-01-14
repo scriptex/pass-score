@@ -4,6 +4,14 @@ Get the score of your password as a number.
 
 The number can be between 0 and the length of the provided array containing the conditions against which the password will be tested.
 
+## Install
+
+`npm i pass-score`
+
+or
+
+`yarn add pass-score`
+
 ## Usage
 
 With default conditions:
