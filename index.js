@@ -27,7 +27,7 @@ const passScore = (pass, conditions = patterns) => {
   // Convert everything to empty string
   try {
     pass = pass.toString();
-  } catch(e) {
+  } catch (e) {
     // If null - convert to empty string
     pass = '';
   }
