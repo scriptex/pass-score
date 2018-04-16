@@ -12,6 +12,14 @@ or
 
 `yarn add pass-score`
 
+or
+
+Just download this repository and link the files located in dist folder:
+
+```
+<script src="dist/index.min.js"></script>
+```
+
 ## Usage
 
 With default conditions:
@@ -39,14 +47,14 @@ const score = passScore('Your-passW0rd-Str1ng', [
 
 The function accepts two arguments:
 
-1. The first is the password string. It is required.
-2. The second is an array of regular expressions. It is optional. The default array is shown below.
+1.  The first is the password string. It is required.
+2.  The second is an array of regular expressions. It is optional. The default array is shown below.
 
 ## Conditions
 
 The predefined array with conditions holds the following:
 
-1. `/\d/` - The password should contain at least on digit
-2. `/[A-Z]/`, - The password should contain at least one uppercase letter
-3. `/[\W_,!?@*\(\)]/` - The password should contain at least one special character
-4. `/^.{8}/` - The password should be at least 8 characters long
+1.  `/\d/` - The password should contain at least on digit
+2.  `/[A-Z]/`, - The password should contain at least one uppercase letter
+3.  `/[\W_,!?@*\(\)]/` - The password should contain at least one special character
+4.  `/^.{8}/` - The password should be at least 8 characters long
