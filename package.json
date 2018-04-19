@@ -10,15 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/scriptex/pass-score.git"
   },
-  "keywords": [
-    "Password",
-    "Score",
-    "Strength",
-    "Check",
-    "Utility",
-    "Tools"
-  ],
-  "author": "Atanas Atanasov <scriptex.bg@gmail.com>",
+  "keywords": ["Password", "Score", "Strength", "Check", "Utility", "Tools"],
+  "author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/scriptex/pass-score/issues"

@@ -6,11 +6,15 @@ The number can be between 0 and the length of the provided array containing the 
 
 ## Install
 
-`npm i pass-score`
+```
+npm i pass-score
+```
 
 or
 
-`yarn add pass-score`
+```
+yarn add pass-score
+```
 
 or
 
@@ -52,9 +56,13 @@ The function accepts two arguments:
 
 ## Conditions
 
-The predefined array with conditions holds the following:
+The predefined array with conditions contains the following:
 
 1.  `/\d/` - The password should contain at least on digit
 2.  `/[A-Z]/`, - The password should contain at least one uppercase letter
 3.  `/[\W_,!?@*\(\)]/` - The password should contain at least one special character
 4.  `/^.{8}/` - The password should be at least 8 characters long
+
+## LICENSE
+
+MIT
