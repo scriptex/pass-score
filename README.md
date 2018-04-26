@@ -1,3 +1,11 @@
+[![GitHub stars](https://img.shields.io/github/stars/scriptex/pass-score.svg?style=social&label=Stars)](https://github.com/scriptex/pass-score)
+[![npm](https://img.shields.io/npm/dt/pass-score.svg)](https://www.npmjs.com/package/pass-score)
+[![npm](https://img.shields.io/npm/v/pass-score.svg)](https://www.npmjs.com/package/pass-score)
+[![GitHub issues](https://img.shields.io/github/issues/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score)
+[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score)
+[![license](https://img.shields.io/github/license/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score)
+[![Github file size](https://img.shields.io/github/size/scriptex/pass-score/dist/index.min.js.svg)](https://github.com/scriptex/pass-score)
+
 # Pass Score
 
 Get the score of your password as a number.
