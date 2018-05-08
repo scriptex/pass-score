@@ -21,13 +21,13 @@ The number can be between 0 and the length of the provided array containing the 
 
 ## Install
 
-```
+```console
 npm i pass-score
 ```
 
 or
 
-```
+```console
 yarn add pass-score
 ```
 
@@ -39,7 +39,7 @@ Just download this repository and link the files located in dist folder.
 
 With default conditions:
 
-```
+```javascript
 import passScore from 'pass-score';
 
 // Returns a number between 0 and 4
@@ -48,7 +48,7 @@ const score = passScore('Your-passW0rd-Str1ng');
 
 With custom conditions
 
-```
+```javascript
 import passScore from 'pass-score';
 
 // Returns a number between 0 and 2
