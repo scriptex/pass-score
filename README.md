@@ -1,5 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/scriptex/pass-score.svg?style=social&label=Stars)](https://github.com/scriptex/pass-score)
-[![GitHub forks](https://img.shields.io/github/forks/scriptex/pass-score.svg?style=social&label=Fork)](https://github.com/scriptex/pass-score/network#fork-destination-box)
 [![GitHub release](https://img.shields.io/github/release/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score/commits/master)
@@ -7,13 +5,8 @@
 [![Build Status](https://travis-ci.org/scriptex/pass-score.svg?branch=master)](https://travis-ci.org/scriptex/pass-score)
 [![npm](https://img.shields.io/npm/dt/pass-score.svg)](https://www.npmjs.com/package/pass-score)
 [![npm](https://img.shields.io/npm/v/pass-score.svg)](https://www.npmjs.com/package/pass-score)
-[![license](https://img.shields.io/github/license/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/pass-score/README.md)](https://github.com/scriptex/pass-score/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/scriptex/pass-score/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/scriptex/pass-score/graphs/commit-activity)
 [![Greenkeeper badge](https://badges.greenkeeper.io/scriptex/pass-score.svg)](https://greenkeeper.io/)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/scriptex/)
 
 # Pass Score
 
