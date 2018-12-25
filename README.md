@@ -6,7 +6,6 @@
 [![npm](https://img.shields.io/npm/dt/pass-score.svg)](https://www.npmjs.com/package/pass-score)
 [![npm](https://img.shields.io/npm/v/pass-score.svg)](https://www.npmjs.com/package/pass-score)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/pass-score/README.md)](https://github.com/scriptex/pass-score/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/scriptex/pass-score.svg)](https://greenkeeper.io/)
 
 # Pass Score
 
