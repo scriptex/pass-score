@@ -15,19 +15,25 @@ The number can be between 0 and the length of the provided array containing the 
 
 ## Install
 
-```console
+```sh
 npm i pass-score
 ```
 
 or
 
-```console
+```sh
 yarn add pass-score
 ```
 
 or
 
-Just download this repository and link the files located in dist folder.
+just download this repository and link the files located in dist folder
+
+or include it from unpkg.com
+
+```html
+<script src="https://unpkg.com/pass-score"></script>
+```
 
 ## Usage
 
