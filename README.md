@@ -74,6 +74,20 @@ The predefined array with conditions contains the following:
 3.  `/[\W_,!?@*\(\)]/` - The password should contain at least one special character
 4.  `/^.{8}/` - The password should be at least 8 characters long
 
+## Bonus
+
+The `pass-score` module provides a native web component. In order to use it you can `import` it:
+
+```javascript
+import 'pass-score/component';
+```
+
+and then use it as shown in the [demo](https://github.com/scriptex/pass-score/tree/master/component/index.html).
+
+The component accepts two attributes:
+`styled`: a boolean attribute which injects an opinionated style in the component.
+`patterns`: a comma separated list of regular expressions against which the password will be matched.
+
 ## LICENSE
 
 MIT
