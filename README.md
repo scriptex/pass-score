@@ -2,7 +2,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/pass-score.svg)](https://github.com/scriptex/pass-score/commits/master)
 [![Github file size](https://img.shields.io/github/size/scriptex/pass-score/dist/index.min.js.svg)](https://github.com/scriptex/pass-score)
-[![Build Status](https://travis-ci.org/scriptex/pass-score.svg?branch=master)](https://travis-ci.org/scriptex/pass-score)
+[![Build Status](https://travis-ci.com/scriptex/pass-score.svg?branch=master)](https://travis-ci.com/scriptex/pass-score)
 [![npm](https://img.shields.io/npm/dt/pass-score.svg)](https://www.npmjs.com/package/pass-score)
 [![npm](https://img.shields.io/npm/v/pass-score.svg)](https://www.npmjs.com/package/pass-score)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/pass-score/README.md)](https://github.com/scriptex/pass-score/)
