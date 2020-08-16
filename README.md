@@ -88,7 +88,6 @@ The component accepts two attributes:
 `styled`: a boolean attribute which injects an opinionated style in the component.
 `patterns`: a comma separated list of regular expressions against which the password will be matched.
 
-
 ## Support this project
 
 [![Tweet](https://img.shields.io/badge/Tweet-Share_this_repository-blue.svg?style=flat-square&logo=twitter&color=38A1F3)](https://twitter.com/intent/tweet?text=Checkout%20this%20awesome%20software%20project%3A&url=https%3A%2F%2Fgithub.com%2Fscriptex%2Fpass-score&via=scriptexbg&hashtags=software%2Cgithub%2Ccode%2Cawesome)
