@@ -10,17 +10,17 @@
     factory(mod.exports);
     global.index = mod.exports;
   }
-})(this, function (_exports) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
     value: true
   });
-  _exports.default = void 0;
+  _exports["default"] = void 0;
 
   /**
    * Default array with regexp conditions
-   * @type {Array}
+   * @type {RegExp[]}
    */
   var patterns = [/\d/, // Digits
   /[A-Z]/, // Uppercase letters
@@ -59,5 +59,5 @@
   };
 
   var _default = passScore;
-  _exports.default = _default;
+  _exports["default"] = _default;
 });

@@ -1,3 +1,4 @@
+// @ts-nocheck
 class PassScore extends HTMLElement {
 	style = `<style>
     :host {
