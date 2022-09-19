@@ -33,7 +33,9 @@ _.config.yml
 .whitesource
 renovate.json
 tsconfig.json
+tsconfig-component.json
 tslint.json
 yarn.lock
 
 !dist
+demo

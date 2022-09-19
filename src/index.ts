@@ -1,7 +1,7 @@
 const patterns: RegExp[] = [
 	/\d/, // Digits
 	/[A-Z]/, // Uppercase letters
-	/[\W_,!?@*\(\)]/, // Special characters
+	/[\!\@\#\$\%\^\&\*\)\(\+\=\.\<\>\{\}\[\]\:\;\'\"\|\~\`\_\-]/, // Special characters
 	/^.{8}/ // At least 8 characters
 ];
 
