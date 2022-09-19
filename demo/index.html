@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Pass Score | Demo</title>
+
+		<style>
+			body {
+				font-family: sans-serif;
+				font-size: 1rem;
+				line-height: 1.25;
+				text-align: center;
+				margin: 0;
+			}
+
+			main {
+				min-height: 100vh;
+				max-width: 30rem;
+				display: flex;
+				flex-flow: column nowrap;
+				align-items: center;
+				justify-content: center;
+				padding: 1rem;
+				margin: auto;
+			}
+
+			p,
+			h1,
+			h2 {
+				margin: 0 0 1rem;
+			}
+
+			main div {
+				width: 100%;
+				text-align: left;
+				padding: 1rem 0;
+				border-width: 1px 0;
+				border-style: solid;
+			}
+
+			main div + div {
+				border-top-width: 0;
+			}
+
+			x-pass-score {
+				display: block;
+			}
+
+			x-pass-score::part(container) {
+				display: flex;
+				flex-flow: row nowrap;
+				border: 1px solid;
+			}
+
+			x-pass-score::part(field),
+			x-pass-score::part(button) {
+				display: block;
+				border: 0;
+				margin: 0;
+				background: none;
+				border-radius: 0;
+				box-shadow: none;
+				appearance: none;
+			}
+
+			x-pass-score::part(field):focus,
+			x-pass-score::part(button):focus {
+				outline: 0 none;
+			}
+
+			x-pass-score::part(field) {
+				font-family: inherit;
+				font-size: inherit;
+				line-height: inherit;
+				width: calc(100% - 2.5rem);
+				padding: 0.625rem;
+			}
+
+			x-pass-score::part(button) {
+				width: 2.5rem;
+				height: 2.5rem;
+				cursor: pointer;
+			}
+
+			x-pass-score::part(field):focus,
+			x-pass-score::part(button):hover {
+				background-color: #e9e9e9;
+			}
+
+			x-pass-score::part(score) {
+				font-size: 80%;
+				font-style: italic;
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				margin: 1rem 0 0;
+			}
+
+			social-links {
+				display: block;
+				padding-top: 1rem;
+			}
+		</style>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		/>
+
+		<script
+			src="https://unpkg.com/scriptex-socials"
+			async
+			integrity="sha384-FDS8WECJvE4bGb+arLPh3DSv0mrVHD+hJRf+UaM6rVMT+wBleSgUlog90rrtgHH1"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<main>
+			<a
+				href="https://github.com/scriptex/pass-score"
+				title="See code on Github"
+				class="github-fork-ribbon"
+				data-ribbon="See code on Github"
+			>
+				See code on Github
+			</a>
+
+			<h1>Pass Score</h1>
+
+			<h2>Get the score of your password</h2>
+
+			<div>
+				<p>With custom patterns: <code>\d,[A-Z]</code></p>
+
+				<x-pass-score patterns="\d,[A-Z]"></x-pass-score>
+			</div>
+
+			<div>
+				<p>With default patterns: <code>/\d/, /[A-Z]/, /[\W_,!?@*\(\)]/, /^.{8}/</code></p>
+
+				<x-pass-score></x-pass-score>
+			</div>
+
+			<social-links></social-links>
+		</main>
+
+		<script src="./dist/component.js"></script>
+	</body>
+</html>
