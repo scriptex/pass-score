@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"isolatedModules": false,
+		"module": "ESNext",
+		"target": "ES6"
+	},
+	"include": ["src/component.ts"],
+	"exclude": ["node_modules", "src/index.ts"]
+}

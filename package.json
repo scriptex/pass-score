@@ -1,37 +1,37 @@
 {
 	"name": "pass-score",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Get the score of your password",
-	"main": "dist/index.js",
-	"scripts": {
-		"dist": "babel src/index.js --out-file dist/index.js",
-		"minify": "babel src/index.js --out-file dist/index.min.js --presets minify,@babel/env",
-		"build": "npm run dist && npm run minify"
+	"keywords": [
+		"Pass score",
+		"Pass strength",
+		"Password score",
+		"Password strength"
+	],
+	"homepage": "https://pass-score.atanas.info",
+	"bugs": {
+		"url": "https://github.com/scriptex/npm-user-stats/issues",
+		"email": "hi@atanas.info"
 	},
+	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/scriptex/pass-score.git"
+		"url": "github:scriptex/pass-score"
 	},
-	"keywords": [
-		"Password",
-		"Score",
-		"Strength",
-		"Check",
-		"Utility",
-		"Tools"
-	],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/scriptex/pass-score/issues"
+	"scripts": {
+		"copy": "cp -r dist demo",
+		"clean": "rm -rf dist && rm -rf demo/dist",
+		"build:fn": "tsc",
+		"build:component": "tsc -p tsconfig-component.json",
+		"build": "yarn clean && yarn build:fn && yarn build:component && yarn copy"
 	},
-	"homepage": "https://github.com/scriptex/pass-score#readme",
+	"dependencies": {},
 	"devDependencies": {
-		"@babel/cli": "7.18.10",
-		"@babel/core": "7.19.1",
-		"@babel/plugin-transform-modules-umd": "7.18.6",
-		"@babel/preset-env": "7.19.1",
-		"babel-loader": "8.2.5",
-		"babel-minify": "0.5.2"
+		"tslib": "2.4.0",
+		"typescript": "4.8.3"
 	}
 }
